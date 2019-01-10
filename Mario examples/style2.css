@@ -52,6 +52,20 @@ html, body{
 }
 
 
+.car{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    animation-name: drive;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    animation-direction: alternate-reverse;
+}
+
+
 
 /* KEYFRAMES */
 @keyframes drive{
