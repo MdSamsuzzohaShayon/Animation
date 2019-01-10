@@ -25,14 +25,14 @@ img{
 
 /* appling Transitions */
 .circle{
-    color: white;
+    /* color: white;
     width: 100px;
     padding: 50px 0;
     line-height: 0;
     margin: 60px auto;
     background: rgb(36, 0, 6);
     border-radius: 50px;
-    cursor: pointer;
+    cursor: pointer; */
     /* transition: 1s; */
     
     /* only apply in particular property */
@@ -45,13 +45,41 @@ img{
     /* timing function */
     /* never speed up or never slow down */
     /* transition: background 1s, transform 1s 1s linear; */
-    transition: background 1s, transform 1s 1s ease-in;
+    /* transition: background 1s, transform 1s 1s ease-in; */
 
 }
 .circle:hover{
-    background: salmon;
-    transform: rotate(360deg);
+    /* background: salmon;
+    transform: rotate(360deg); */
 }
+
+.grass, .sky, .road{
+    position: relative;
+}
+.sky{
+    height: 40%;
+}
+.grass{
+    height: 30%;
+    background: rgb(2, 100, 15);
+}
+.road{
+    height: 30%;
+    background: dimgray;
+    box-sizing: border-box;
+    border-top: 10px solid gray;
+    border-bottom: 10px solid gray;
+    width: 100%;
+}
+.lines{
+    box-sizing: border-box;
+    border: 5px dashed #fff;
+    height: 0;
+}
+
+
+
+
 
 
 
