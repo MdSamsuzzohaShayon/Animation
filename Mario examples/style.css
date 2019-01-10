@@ -1,0 +1,23 @@
+body{
+    background: rgb(115, 115, 248);
+    text-align: center;
+}
+.container{
+    width: 100%;
+    box-sizing: border-box;
+}
+img{
+    /* transform: translateY(200px); */
+    /* transform: translate(200px, 100px); */
+    /* translate means move the object */
+
+    /* transform: scaleX(3); */
+    /* transform: scaleY(-3); */
+    /* transform: scale(3, .4); */
+
+    /* transform: rotateX(60deg); */
+    /* transform: rotateY(120deg); */
+    /* transform: rotateZ(60deg); */
+
+    /* transform: rotateZ(-90deg) translateY(200px) scale(2); */
+}
