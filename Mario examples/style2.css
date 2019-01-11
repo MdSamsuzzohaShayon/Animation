@@ -76,6 +76,25 @@ html, body{
 
 
 
+.cloud{
+    position: absolute;
+}
+.cloud:nth-child(1){
+    width: 200px;
+    top: 120px;
+    opacity: .5;
+
+    /* SHORT WAY TO ANIMATE */
+    animation: wind 80s linear infinite reverse;
+}
+.cloud:nth-child(2){
+    width: 300px;
+    top: 0px;
+    animation: wind 50s linear infinite reverse;
+}
+
+
+
 /* KEYFRAMES */
 @keyframes drive{
     from{
@@ -85,6 +104,22 @@ html, body{
         transform: translateX(1000px);
     }
 }
+
+
+
+@keyframes wind{
+    from{
+        left: -300px;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+
+
+
+
 
 
 
