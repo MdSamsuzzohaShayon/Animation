@@ -60,9 +60,18 @@ html, body{
     animation-duration: 5s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
+
+    /* ANIMATION DIRECTION */
     /* animation-direction: reverse; */
     /* animation-direction: alternate; */
-    animation-direction: alternate-reverse;
+    /* animation-direction: alternate-reverse; */
+
+
+    /* ANIMATION TIMING FUNCTION */
+    /* animation-timing-function: linear; */
+    /* animation-timing-function: ease-in; */
+    /* http://cubic-bezier.com */
+    animation-timing-function: cubic-bezier(.09,1.19,.94,.19);
 }
 
 
