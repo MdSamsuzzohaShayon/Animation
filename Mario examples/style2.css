@@ -39,16 +39,21 @@ html, body{
     position: absolute;
     top: -40px;
     left: 0;
-    animation-name: drive;
-    animation-duration: 3s;
+    /* animation-name: drive; */
+    /* animation-duration: 3s; */
     /* animation-fill-mode: forwards; */
     /* animation-fill-mode: backwards; */
-    animation-fill-mode: both;
+    /* animation-fill-mode: both; */
     /* animation-delay: 2s; */
 
     /* REPEATING ANIMATION */
     /* animation-iteration-count: 3; */
-    animation-iteration-count: infinite;
+    /* animation-iteration-count: infinite; */
+
+
+    /* JUMPING ANIMATION */
+    animation: drive 3s both infinite linear, 
+               jump .3s 1.2s ease;
 }
 
 
@@ -113,6 +118,19 @@ html, body{
     }
     to{
         left: 100%;
+    }
+}
+
+
+@keyframes jump{
+    0%{
+        top: -40px;
+    }
+    50%{
+        top: -100%;
+    }
+    100%{
+        top: -40px;
     }
 }
 
